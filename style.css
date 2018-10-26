@@ -1,0 +1,29 @@
+body {
+	font-family: arial;
+	background: rgb(209,209,209);
+	text-align: center;
+
+}
+
+
+h1{
+	color:#006600;
+	font-size:40px;
+	font-family: raleway;
+}
+
+img{
+	width: 300px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	background: black;
+}
+
+ul{
+	text-align: left;
+}
