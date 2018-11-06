@@ -7,13 +7,18 @@ body {
 
 
 h1{
-	color:#006600;
+	color:black;
+	background: linear-gradient(20deg,#159957,#155799);
 	font-size:40px;
-	font-family: raleway;
+	font-family: 'Muli', sans-serif;
+	padding: 100px;
 }
 
 img{
 	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	box-shadow: 10px -10px 10px grey
 }
 
 a{
@@ -27,3 +32,40 @@ a:hover{
 ul{
 	text-align: left;
 }
+
+p {
+	border:5px solid green;
+	padding:50px;
+	margin: 100px 50px 50px 50px;
+	border-radius: 100px
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+#box-black {
+	background: black;
+	padding:20px;
+}
+
+#box-orange {
+	background: orange;
+}
+#box-green {
+	background: green
+}
+
+width-200px {
+	width:200px;
+}
+
+my-icon {
+	font-size: 40px;
+	color:blue;
+}
+
+
+.box-pink {
+	background:orange;
+}
+
+
