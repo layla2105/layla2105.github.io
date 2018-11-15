@@ -1,25 +1,18 @@
 body {
 	font-family: arial;
 	text-align: center;
-  background: #abbaab;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
-
-
+  background: linear-gradient(to top, #888585 0%, #ffffff 100%);
 }
+
 
 .avatar-large {
   width: 50px;
-  border-radius: 100%;
+  border-radius: 50%;
   margin-left: 20px
 }
 
 .banner {
-  color: white;
+  color: #661E36;
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -32,57 +25,97 @@ body {
 .banner h1 {
   font-size: 80px;
   font-family: 'Righteous', sans-serif;
-  font-weight: bold;
+  font-weight: bold; 
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   margin-top : 50px;
   margin-bottom: 50px;
   text-align: center;
-  color: white;
+  color: #661E36;
 }
 .banner p {
   font-size: 50px;
   font-family: 'Righteous', sans-serif;
   font-weight:normal;
-  color: rgb(255, 255, 255);
+  color: white;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   opacity: 0.9;
   margin-bottom: 50px;
 }
 
 .btn-medium {
-  color: white;
-  border: 3px solid white;
+  color: #661E36;
+  border: 2px solid #661E36;
   padding: 10px 15px;
   border-radius: 50px;
   font-weight: normal;
-  opacity: 1;
+  opacity: 0.7;
   font-size: 30px;
   font-family: 'Righteous', sans-serif;
+  background: white;
 }
 .btn-medium:hover {
   opacity: 1;
   text-decoration: none;
   color: white;
+  background: #661E36;
 }
 
 
+.card{
+  padding: 15px;
+  margin-bottom: 50px;
+  width: 275px;
+  height:525px;
+  background:#661E36;
+  margin-right: 50px;
+
+}
+
+
+.card h2 {
+  color:white;
+  font-family: 'Righteous',sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.card p {
+  font-family: 'Arial';
+  font-weight: normal;
+  color:white;
+  margin-bottom:10px;
+}
 
 .card img {
-  height: 200px;
+  height: 300px;
+  width: 260px;
   object-fit: cover;
   border-radius: 15px;
   padding: 10px;
+  align-self: center;
 }
 
-.card{
-  padding: 10px;
-  margin-bottom: 50px;
- 
+.btn-treehouse {
+  color: #661E36;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: white;
+  transition: background 0.3s ease;
 }
 
-.container {
-  margin: 100px;
+.btn-treehouse:hover {
+  opacity: 0.8;
+  background: white;
+  text-decoration: none;
+  color: #661E36;
 }
+
+
+
+
+
+
 
 
 
@@ -92,13 +125,13 @@ body {
 
 
 .footer {
-  background: #F4F4F4;
+  background: #f8f9fa;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 70px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  
 }
 .footer-links {
   display: flex;
@@ -112,9 +145,10 @@ body {
   padding: 0px 10px;
 }
 .footer-links a:hover {
+  color:#661E36;
   opacity: 1;
 }
-.footer .fa-heart {
+.footer.fa-heart {
   color: #D23333;
 }
 
