@@ -1,71 +1,141 @@
 body {
 	font-family: arial;
-	background: rgb(209,209,209);
 	text-align: center;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
 
 }
 
-
-h1{
-	color:black;
-	background: linear-gradient(20deg,#159957,#155799);
-	font-size:40px;
-	font-family: 'Muli', sans-serif;
-	padding: 100px;
+.avatar-large {
+  width: 50px;
+  border-radius: 100%;
+  margin-left: 20px
 }
 
-img{
-	width: 300px;
-	height: 300px;
-	border-radius: 100%;
-	box-shadow: 10px -10px 10px grey
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.banner h1 {
+  font-size: 80px;
+  font-family: 'Righteous', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-top : 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+.banner p {
+  font-size: 50px;
+  font-family: 'Righteous', sans-serif;
+  font-weight:normal;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  margin-bottom: 50px;
 }
 
-a{
-	text-decoration: none;
+.btn-medium {
+  color: white;
+  border: 3px solid white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: normal;
+  opacity: 1;
+  font-size: 30px;
+  font-family: 'Righteous', sans-serif;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: white;
 }
 
-a:hover{
-	background: black;
+
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  padding: 10px;
 }
 
-ul{
-	text-align: left;
+.card{
+  padding: 10px;
+  margin-bottom: 50px;
+ 
 }
 
-p {
-	border:5px solid green;
-	padding:50px;
-	margin: 100px 50px 50px 50px;
-	border-radius: 100px
-	font-family: 'Rubik', sans-serif;
+.container {
+  margin: 100px;
+}
+
+
+
+
+
+
+
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
-}
-
-#box-black {
-	background: black;
-	padding:20px;
-}
-
-#box-orange {
-	background: orange;
-}
-#box-green {
-	background: green
-}
-
-width-200px {
-	width:200px;
-}
-
-my-icon {
-	font-size: 40px;
-	color:blue;
-}
 
 
-.box-pink {
-	background:orange;
-}
+
+
+
 
 
