@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 .banner h1 {
   font-size: 80px;
@@ -60,6 +60,14 @@ body {
   background: #661E36;
 }
 
+
+.section h1 {
+  color: #661E36 ;
+  font-family: 'Righteous', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
 
 
 
