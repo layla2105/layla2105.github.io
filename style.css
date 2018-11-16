@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .banner h1 {
   font-size: 80px;
@@ -52,6 +52,7 @@ body {
   font-size: 30px;
   font-family: 'Righteous', sans-serif;
   background: white;
+  margin-bottom: auto;
 }
 .btn-medium:hover {
   opacity: 1;
@@ -70,7 +71,7 @@ body {
 }
 
 
-.col-4 {
+.division {
   background : white ;
   border-radius : 4px;
   opacity : 0.8;
@@ -79,12 +80,15 @@ body {
 
 .card {
   padding: 15px;
+  border-radius: 4px;
   margin-bottom: 150px;
   width: 275px;
   height:555px;
   background:#661E36;
-  margin-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
+
  
 
 }
@@ -140,35 +144,52 @@ body {
 
 .card1 {
   background: #661E36;
-  margin-left: 400px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
   width:400px ;
   height:400px;
-  margin-top: 150px;
-  margin-bottom: 300px;
+  margin-top: 80px;
+  margin-bottom: 25%;
+  position: relative;
 }
 
+
 .card1 h1 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Righteous':sans-serif;
   font-weight: bolder;
   text-align: center;
   color:white;
+  position: absolute;
+  top:50px;
+  left: 30%;
+
+}
+
+.card1 h2 {
+  font-size: 30px;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: white;
+  vertical-align: center;
+  position:absolute;
+  top: 150px;
+  left: 20%;
+  right:20%;
 }
 
 .card1 p {
-  font-size: 15px;
+  font-size: 23px;
   font-family: 'Arial';
   font-weight: normal;
   color: white;
+  vertical-align: center;
+  position:absolute;
+  top: 200px;
+  left:15%;
+  right:15%;
 }
-
-
-
-
-
-
-
-
 
 
 
