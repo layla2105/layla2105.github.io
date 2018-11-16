@@ -70,6 +70,12 @@ body {
 }
 
 
+.col-4 {
+  background : white ;
+  border-radius : 4px;
+  opacity : 0.8;
+}
+
 
 .card {
   padding: 15px;
@@ -128,6 +134,32 @@ body {
   background: white;
   text-decoration: none;
   color: #661E36;
+}
+
+
+
+.card1 {
+  background: #661E36;
+  margin-left: 400px;
+  width:400px ;
+  height:400px;
+  margin-top: 150px;
+  margin-bottom: 300px;
+}
+
+.card1 h1 {
+  font-size: 30px;
+  font-family: 'Righteous':sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color:white;
+}
+
+.card1 p {
+  font-size: 15px;
+  font-family: 'Arial';
+  font-weight: normal;
+  color: white;
 }
 
 
